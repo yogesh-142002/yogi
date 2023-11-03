@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blood Donation Registration</title>
+</head>
+<body>
+    <div class="container">
+        <img src="https://wallpapercave.com/wp/wp4323467.jpg" alt="Blood Donation Image" class="blood-image">
+        <h1>Blood Donation </h1>
+        <form action="submit_registration.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="Age">Age:</label>
+            <input type="Age" id="Age" name="Age" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="blood-type">Blood Type:</label>
+            <select id="blood-type" name="blood-type" required>
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </select>
+            <a href="R.R. Institute of Technology"></a>
+            
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#container {
+    border-width: 100px;
+    width: 20%;
+    overflow: hidden;
+    border-right: 100px;
+    border: 5px solid aquamarine;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    top: 10px;
+
+
+}
+#container #imagee{
+    right: 100px;
+    left: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+#container #imageee{
+    right: 20px;
+    left: 10px;
+    position: relative;
+    border-radius: 10px;
+}

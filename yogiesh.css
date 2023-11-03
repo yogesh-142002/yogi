@@ -1,0 +1,65 @@
+body{
+ background-color: rgb(215, 250, 249);
+}
+a{
+    color:skyblue;
+    padding: 40px;
+    font-size: large;
+    font-family: cursive;
+}
+h1{
+    
+    color:rgb(43, 141, 226);
+    margin-top: 10px;
+    padding-top: 50px;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: 52px;
+    text-shadow: 5px 9px 6px black;
+}
+.my{
+    border: 5px solid brown;
+    border-style: none;
+    border-radius: 35px;
+    height: 840px;
+    width: 1500px;
+    background: transparent;
+    opacity: 90px;
+    font-family:cursive;
+    text-shadow: 5px 9px 6px black;
+}
+img{
+    height: 700px;
+    align-items: start;
+    border: 1px solid black;
+    border-radius: 285px;
+    float:left;
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+table{
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    color: burlywood;
+    padding-top: 2px;
+    text-shadow: 5px 9px 6px black;
+}
+p{
+    margin-top: 70px;
+    color: burlywood;
+    text-shadow: 5px 9px 6px black;
+}
+h2{
+    color: burlywood;
+    text-shadow: 5px 9px 6px black;
+}
+h3{
+    color: burlywood;
+    text-shadow: 5px 9px 6px black;
+}
+.insta{
+    height: 4px;
+    width: 5px;
+}
